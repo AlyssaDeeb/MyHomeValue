@@ -1,8 +1,8 @@
 # MyHomeValue
 
-My Home Value is seperated into two components, the Java backend and React frontend. The Java portion is intended to be deployed on Apache Tomcat and the front end is powered by Node. 
+My Home Value is separated into two components, the Java backend and React frontend. The Java portion is intended to be deployed on Apache Tomcat and the front end is powered by Node. 
 
-The API keys, database information, and URLs have been removed from this code. In order to replicate this project, replace the follwing information:
+The API keys, database information, and URLs have been removed from this code. In order to replicate this project, replace the following information:
 
 Java: 
   - GreatSchools: APIKey
@@ -21,7 +21,8 @@ React:
   - Map: key
   - App: id
   - config: otherURL, baseURL, prodURL
-
+  
+To set up the database, use the file in [/MySQL](https://github.com/AlyssaDeeb/MyHomeValue/blob/master/MySQL/createTable.sql)
 
 Code Contributors: Alyssa Deeb, Andrew Mehta, & Jimmy Sigala
 
