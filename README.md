@@ -21,3 +21,7 @@ React:
   - Map: key
   - App: id
   - config: otherURL, baseURL, prodURL
+
+
+Code Contributors: Alyssa Deeb, Andrew Mehta, & Jimmy Sigala
+Design Contributors: Adoriel Bethishou, Alyssa Deeb, Kim Lam, Andrew Mehta, Jimmy Sigala, Jean Truong
