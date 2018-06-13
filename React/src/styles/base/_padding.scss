@@ -1,0 +1,31 @@
+@mixin custom-top-padding($amount) {
+    padding-top: $amount;
+}
+
+@mixin custom-bottom-padding($amount) {
+    padding-bottom: $amount;
+}
+
+.pt-0 { @include custom-top-padding(0px); }
+.pt-10 { @include custom-top-padding(10px); }
+.pt-20 { @include custom-top-padding(20px); }
+.pt-30 { @include custom-top-padding(30px); }
+.pt-40 { @include custom-top-padding(40px); }
+.pt-50 { @include custom-top-padding(50px); }
+.pt-60 { @include custom-top-padding(60px); }
+.pt-70 { @include custom-top-padding(70px); }
+.pt-80 { @include custom-top-padding(80px); }
+.pt-90 { @include custom-top-padding(90px); }
+.pt-100 { @include custom-top-padding(100px); }
+
+.pb-0 { @include custom-bottom-padding(0px); }
+.pb-10 { @include custom-bottom-padding(10px); }
+.pb-20 { @include custom-bottom-padding(20px); }
+.pb-30 { @include custom-bottom-padding(30px); }
+.pb-40 { @include custom-bottom-padding(40px); }
+.pb-50 { @include custom-bottom-padding(50px); }
+.pb-60 { @include custom-bottom-padding(60px); }
+.pb-70 { @include custom-bottom-padding(70px); }
+.pb-80 { @include custom-bottom-padding(80px); }
+.pb-90 { @include custom-bottom-padding(90px); }
+.pb-100 { @include custom-bottom-padding(100px); }

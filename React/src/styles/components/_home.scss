@@ -1,0 +1,28 @@
+.welcomeimage {
+    width: 100%;
+}
+
+.welcometitle {
+    padding: 20px 0px;
+    font-size: 36pt;
+}
+
+.responsiveImage{
+    background-image: url('./../img/newportHome.jpg');
+    background-position: top;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+#responsiveForm{
+    padding: 80px;
+    padding-top: 1px;
+    padding-bottom: 500px;
+  }
+
+@media (max-width: 768px) {
+    .welcometitle {
+        font-size: 22pt;
+    }
+}

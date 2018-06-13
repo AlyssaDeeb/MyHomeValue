@@ -1,0 +1,46 @@
+
+.cc-background {
+    margin-left: 18%;
+    margin-right: 18%;
+    background-color: white;
+    padding: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.cc-margin-row {
+    margin-top: 5%;
+
+}
+.cc-margin-row-btn {
+    margin-top: 5%;
+    text-align: center;
+}
+.cc-margin-label {
+    margin-right: 2%
+}
+
+.switch-selected {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+    border-bottom: 2px solid #000000;
+}
+
+.switch-deselected {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.description-text {
+    font-style: italic;
+}
+
+@media (max-width: 988px) {
+    .calculationForm {
+        text-align: center
+    }
+}

@@ -1,0 +1,95 @@
+body {
+    background-color: #FFFFFF;
+}
+h1 {
+    color: #8A8888;
+    font: 200% arial, sans-serif;
+	margin-bottom: -.04%;
+}
+
+h2 {
+    color: #8A8888;
+    font: 180% arial, sans-serif;
+	text-align: left;
+	text-indent: 30%
+}
+h3 {
+    color: #8A8888;
+    font: 140% arial, sans-serif;
+	text-align: left;
+	text-indent: 32%
+}
+
+.Color1{
+	background: transparent;
+	border: transparent;
+	width: 10%;
+	height: 40px;
+}
+.Color2{
+	background: transparent;
+	border: transparent;
+	width: 10%;
+	height: 40px;
+}
+.Color3{
+	background: transparent;
+	border: transparent;
+	width: 10%;
+	height: 40px;
+}
+
+.FirstSub{
+	background-color: #F4F4F4;
+	width: 10%;
+	position: center;
+	font: 120% arial, sans-serif;
+	border-color: #F4F4F4;
+	border-width: 2px;
+	margin-right: 4%;
+
+}
+.Generate{
+	width:12%;
+	font: 120% arial, sans-serif;
+	color:#FFFFFF;
+	background-color: #FF6634;
+	Border: solid 5px #FF6634;
+	border-radius: 5px;
+}
+.SecondSub{
+	background-color: #F4F4F4;
+	width: 10%;
+	position: center;
+	font: 120% arial, sans-serif;
+	border-color: #F4F4F4;
+	border-width: 2px;
+	margin-right: 4%;
+}
+
+.Search{
+	width:12%;
+	font: 120% arial, sans-serif;
+	color:#FFFFFF;
+	background-color: #FF6634;
+	border: solid 5px #FF6634;
+	border-radius: 5px;
+}
+
+.Checkboxes{
+	font: 100% arial, sans-serif;
+	margin-left: 35%;
+}
+input:checked + label.Checkboxes {
+  color: #555759;
+}
+
+h3 {
+    color: #8A8888;
+}
+h4 {
+    color: #8A8888;
+}
+p {
+    color: red;
+}

@@ -1,0 +1,60 @@
+/*html {
+    font-size: 62.5%;
+}
+
+body {
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 1.6rem;
+ }
+*/
+
+.is-active {
+    font-weight: bold;
+}
+
+.easycenter {
+    text-align: center;
+}
+
+.easycenterblock {
+    margin: 0 auto;
+    display: block;
+}
+
+#example-navbar-collapse-3 {
+    background-color: #38424a;
+    border-color: #2a3137;
+}
+
+.navbar-header {
+    background-color: #38424a;
+    border-color: #2a3137;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.navbarsearch {
+    width: 75% !important;
+}
+
+.dataprovidedby {
+    font-style: italic;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background-image: url(''); //Should fail, but is needed to override
+    background-color: #6a7278;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.open>a:hover {
+    background-image: url(''); //Should fail, but is needed to override
+    background-color: #6a7278;
+}
+
+@media (max-width: 769px) {
+    .navbar-default .navbar-collapse li a {
+        color: white
+    }
+}
